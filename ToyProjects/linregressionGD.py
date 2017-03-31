@@ -1,3 +1,7 @@
+# This is from a live tutorial with Siraj
+# https://github.com/llSourcell/linear_regression_live
+
+
 #%matplotlib inline
 from numpy import *
 import matplotlib.pyplot as plt
