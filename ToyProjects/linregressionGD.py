@@ -34,7 +34,7 @@ def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_i
     return [b,m]
 
 def run():
-    points = genfromtxt('data.csv', delimiter=',')
+    points = genfromtxt('data_linregressionGD.csv', delimiter=',')
     #hyperparameter
     learning_rate = 0.0001
     #y = mx + b
