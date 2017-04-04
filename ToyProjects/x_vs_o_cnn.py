@@ -14,10 +14,10 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 import random
 
-x_train = data_x
-y_train = data_y
-x_test = data_x
-y_test = data_y
+x_train = data_x_train
+y_train = data_y_train
+x_test = data_x_test
+y_test = data_y_test
 
 batch_size = 128
 num_classes = 2
@@ -56,7 +56,7 @@ model.compile(loss=keras.losses.categorical_crossentropy,
               optimizer=keras.optimizers.Adadelta(),
               metrics=['accuracy'])
 
-model.fit(x_train, y_train,
+history = model.fit(x_train, y_train,
           batch_size=batch_size,
           epochs=epochs,
           verbose=1,
