@@ -19,7 +19,7 @@ y_train = data_y_train
 x_test = data_x_test
 y_test = data_y_test
 
-batch_size = 128
+batch_size = 32
 num_classes = 2
 epochs = 12
 
@@ -47,7 +47,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 model.add(Flatten())
 model.add(Dense(128, activation='relu'))
-model.add(Dropout(0.5))
+#model.add(Dropout(0.5))
 model.add(Dense(num_classes, activation='softmax'))
 
 model.summary()
@@ -79,3 +79,6 @@ if pred[0][0] == 1:
     plt.title("circle")
 else:
     plt.title("cross")
+    
+plt.figure()
+plt.plot(history.history['acc'])

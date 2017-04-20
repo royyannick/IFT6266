@@ -48,8 +48,8 @@ import matplotlib.pyplot as plt
 import os
 import cv2
 
-folderO = "/Users/yannick/Documents/Playground/Python/data/x_vs_o/circles"
-folderX = "/Users/yannick/Documents/Playground/Python/data/x_vs_o/crosses"
+folderO = "/home/nick/Documents/data/x_vs_o/circles"
+folderX = "/home/nick/Documents/data/x_vs_o/crosses"
 
 N = len(os.listdir(folderO))
 dataO = np.empty((N, 32, 32), dtype=np.uint8)
