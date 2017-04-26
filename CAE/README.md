@@ -17,7 +17,7 @@ Trained on 50 000 images from the train2014 folder of IFT6266's COCO image packa
 ![Alt text](img/Results_Img_7.png?raw=true "Image #1")
 ![Alt text](img/Results_Img_8.png?raw=true "Image #1")
 
-
+It seems that more training could be good if the features learned where actually good, because when it's wrong, less training gives a better image by just roughly inpainting the context colors... Wrong guesses trying to paint something that doesn't fit makes it worse. Next step would be to try a deeper network, to learn more features.
 
 
 ### Credits : 
