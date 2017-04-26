@@ -1,11 +1,6 @@
 # IFT6266 - Convolutional Auto-Encoder
 This CAE is for the class project for IFT6266 : Conditional Image Generation
 
-### Credits : 
-Most of this work is build on top of 
-https://ift6266mcomin.wordpress.com/
-Thanks for putting simple code that actually works!
-
 ### Model :
 [Insert Image Here]
 
@@ -21,3 +16,10 @@ Trained on 50 000 images from the train2014 folder of IFT6266's COCO image packa
 ![Alt text](img/Results_Img_6.png?raw=true "Image #1")
 ![Alt text](img/Results_Img_7.png?raw=true "Image #1")
 ![Alt text](img/Results_Img_8.png?raw=true "Image #1")
+
+
+
+
+### Credits : 
+Most of this work is build on top of [Massimiliano Comin's work](https://ift6266mcomin.wordpress.com/)
+Thanks for putting simple code that actually works!
