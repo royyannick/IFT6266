@@ -1,0 +1,1 @@
+Insert: coco_gru18_bs64_cls0.5_ngf128_ndf128_a10_c512_80_net_T.t7  here
