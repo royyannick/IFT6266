@@ -212,5 +212,10 @@ generator = Model(decoder_input, _x_decoded_mean_squash)
 #plt.imshow(figure, cmap='Greys_r')
 #plt.show()
 
-vae.save('VAE_CelebA.h5')
-generator.save('VAEGen_CelebA.h5')
+vae.save('VAE_Model.h5')
+generator.save('VAEGen_Model.h5')
+encoder.save('VAEEncoder_Modelh.h5')
+
+import pickle
+with open('history.pickle', 'wb') as f:
+    pickle.dump(histo.history, f)
